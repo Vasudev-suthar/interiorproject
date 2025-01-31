@@ -25,17 +25,25 @@ const projects = [
     image: "/project2.jpg",
     link: "",
   },
+  {
+    id: 4,
+    name: "Drawing room for family time",
+    description:
+      "drawing with a clean and comfortable design for your family. Charming whit a modern design.",
+    image: "/project1.jpg",
+    link: "",
+  }
 ];
 const page = () => {
   return (
     <div>
       <div className="bg-[url('/bgproject.jpg')] bg-center bg-cover">
-        <h1 className="container py-64 text-6xl font-semibold tracking-widest text-white">
+        <h1 className="container px-14 py-64 text-6xl font-semibold tracking-widest text-white">
           Our Projects
         </h1>
       </div>
 
-      <div className="container grid lg:grid-cols-2 gap-8 py-8">
+      <div className="container grid lg:grid-cols-2 gap-8 py-8 m-auto">
           {
             projects.map((project) => (
               <div key={project.id} className="relative overflow-hidden rounded-xl group">

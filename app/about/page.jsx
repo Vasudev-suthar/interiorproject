@@ -27,7 +27,7 @@ const page = () => {
         </h1>
       </div>
 
-      <div className="container">
+      <div className="container m-auto">
         <div className="pt-4">
           <motion.h2 
           initial="offscreen"

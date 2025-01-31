@@ -14,7 +14,7 @@ import { desVariants, titleVariants, togVariants } from "@/utils/animation";
 
 export default function CatalogSwiperSection() {
   return (
-    <div className="py-8 lg:py-28">
+    <div className="py-8 px-8 lg:py-28">
       <div className="container grid pb-8 lg:grid-cols-1">
         <div className="text-left">
           <motion.h1

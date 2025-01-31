@@ -10,7 +10,7 @@ import { desVariants, titleVariants, togVariants } from "@/utils/animation";
 export default function Footer (){
   return(
     <div className="bg-tertiary">
-      <div className="container lg:grid lg:grid-cols-2 py-14">
+      <div className="container lg:grid lg:grid-cols-2 py-14 px-8">
         <div className="grid gap-4 pb-4 text-left lg:pb-0 lg:grid-cols-3">
           <motion.div
           initial="offscreen"
